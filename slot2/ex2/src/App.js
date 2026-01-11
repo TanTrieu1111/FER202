@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import About from './compoents/About';
+import About from './components/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-    <About />
+    <div className="App">
+      <About />
+    </div>
   );
 }
 
